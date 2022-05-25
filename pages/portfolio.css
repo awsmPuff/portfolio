@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    text-align: center;
+    color: white;
+    background-color: #f0ede6;
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* SCROLL BAR */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #ffffff; 
+    box-shadow: inset 0px 1px 6px gray;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #f0ede6; 
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 2px gray;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #dad8d3; 
+  }
+
+/* RETURN-BUTTON */
+.homepage {
+    position:fixed;
+    left: 20px;
+    top: 0;
+    padding: 10px;
+    font-size: 15px;
+    background-color: black;
+    border: solid 2px #f0ede6;
+    border-radius: 2px;
+}
+
+/* LINK */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    margin-top: 80px;
+    margin-left: 90px;
+    text-align: left;
+    color: #0b465e;
+    font-family: 'Timmana', sans-serif;
+    font-size: 70px;
+    text-shadow: 5px 5px 1px #f0ede6;
+}
+
+h4 {
+    font-family: 'Timmana', sans-serif;
+    color: #f0ede6;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 50px;
+    line-height: 2;
+}
+
+.container {
+    background-color: #ddddddb7;
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+    padding: 50px 10px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.row {
+    padding-bottom: 70px;
+    padding-top: 30px;
+    border-bottom:double 3px #a2a2a8;
+}
+
+.project-img {
+    height: 25%;
+    width: 60%;
+    margin: 20px auto;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    opacity: 1;
+    border-radius: 8px;
+}
+
+iframe {
+    width: 450px;
+    height: 450px;
+    border-radius: 8px;
+}
+
+.row-3 carousel-indicators {
+    margin-top: 10px;
+}
+
+.row-3 p {
+    text-align: left;
+    margin-left: 50px;
+    width: 400px;
+}
+
+.row-3 h5 {
+   margin-top: 60px;
+}
+
+.carousel-caption {
+    font-weight: 200;
+    margin-left: 100px;
+    text-align:center;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: black;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.carousel-item:hover img {
+    opacity: .3;
+}
+
+.carousel-caption:hover {
+    opacity: 1;
+}
+
+.fa-circle {
+    font-size: 10px;
+    vertical-align: middle;
+}
+
+.html {
+    color: rgb(229, 129, 86);
+}
+
+.css {
+    color: rgb(123, 164, 240);
+}
+
+.js {
+    color: rgb(255, 235, 137);
+
+}

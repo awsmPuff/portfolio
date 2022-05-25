@@ -1,0 +1,126 @@
+
+body{
+    margin: 0;
+    text-align: center;
+    background-color: #f0ede6;
+    overflow: hidden;
+}
+
+/* LINK */
+a {
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #216d8b;
+}
+
+/* NAV-BAR */
+nav {
+    min-height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+nav ul {
+    display: inline;
+    list-style-type:none;
+    color: rgb(11, 70, 94);
+
+}
+
+nav ul li {    
+    display: inline;
+    margin: 15px;
+    color: rgb(11, 70, 9s4);
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+
+/* CONTENT */
+.content{
+    display: table;
+    clear: both;
+    margin: 10px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 400px;
+}
+
+#shape {
+    width: 650px;
+    height: 400px;
+    margin-top: 100px;
+    margin-right: 50px;
+    background: url(./images/bunch.png);
+    background-size: cover;
+    clip-path: polygon(40% 20%, 30% 20%, 20% 0%, 20% 50%, 40% 50%, 60% 70%, 80% 20%);
+    animation: clips 3s ease infinite;
+    float: right;
+}
+
+@keyframes clips {
+    50% {
+  clip-path: polygon(60% 0%, 60% 8%, 0% 8%, 0% 93%, 60% 93%, 60% 100%, 85% 50%)
+    }
+}
+
+#text {
+    margin-top: 250px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+#text h1{
+    margin: 25px auto;
+    font-family: 'DM Serif Display', serif;
+    font-size: 80px;
+    color: #0b465e;
+}
+
+#text p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    color: #0b465e;
+    margin: 5px auto;
+    line-height: 30px;
+}
+
+
+/* BUTTON */
+.enter{
+    padding: 10px 25px;
+    margin: 20px auto;
+    background: transparent;
+    border: solid 2.5px #0b465e;
+    border-radius: 10px;
+    color: #0b465e;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+}
+
+.enter:hover {
+    background-color: #0b465e;
+    transition: 0.5s;
+    color: #f0ede6;
+}
+
+

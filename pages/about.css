@@ -1,0 +1,124 @@
+
+body {
+    margin: 0;
+    font-size: 23px;
+    background-color: #f0ede6;
+    color: #3a4b56;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+a {
+    color: rgb(240, 237, 230);
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+p {
+    text-align: justify;
+    line-height: 2;
+    letter-spacing: 2;
+}
+
+/* SCROLL BAR */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #ffffff; 
+    box-shadow: inset 0px 1px 6px gray;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #f0ede6; 
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 2px gray;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #dad8d3; 
+  }
+
+/* RETURN-BUTTON */
+.homepage {
+    position:fixed;
+    margin: 0 20px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: black;
+    border: solid 2px #f0ede6;
+    border-radius: 2px;
+}
+
+/* PARALLAX */
+.parallax {
+    background-image: url("../images/moon.png");
+    min-height: 760px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec {
+    background-image: url("../images/lauren.png");
+}
+
+/* INTRO */
+.intro {
+    min-height: 350px;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+/* EXPERIENCE */
+.experience {
+    padding: 50px;
+    margin: 50px auto;
+    min-height: 400px;
+}
+
+.row {
+    padding: 10px;
+}
+
+.row p {
+    text-align: right;
+}
+
+
+/* SKILLS&TOOLS */
+.s-t {
+    padding: 50px;
+    margin-top: 50px auto;
+    min-height: 300px;
+}
+
+.s-t div {
+    margin-top: 70px;
+}
+
+.s-t h4 {
+    text-align: left;
+    border: none;
+    border-bottom: solid 2px #3a4b56;
+    width: 60px;
+    padding: 2px;
+}
+
+.s-t ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: justify;
+}
+
+.s-t li {
+    margin-right: 40px;
+    line-height: 2;
+}
