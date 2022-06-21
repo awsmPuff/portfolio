@@ -83,8 +83,8 @@ h4 {
 }
 
 .project-img {
-    height: 25%;
-    width: 60%;
+    height: 400px;
+    width: 600px;
     margin: 20px auto;
     display: block;
     transition: .5s ease;
